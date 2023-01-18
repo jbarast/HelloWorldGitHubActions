@@ -2,7 +2,7 @@ on: push
 name: HelloWorldWorkflow
 
 jobs:
-    deploy:
+    docker:
         name: deploy hello project
         runs-on: ubuntu-latest
         steps:

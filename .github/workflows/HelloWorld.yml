@@ -27,5 +27,6 @@ jobs:
         with:
           context: .
           push: true
+          file: ./Dockerfile 
           tags: jbarast/hello_world_github_actions:latest
 
